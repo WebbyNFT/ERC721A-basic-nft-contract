@@ -4,6 +4,7 @@ Ready contract for deploying NFT collection.
 It can be deployed by [Remix](https://remix.ethereum.org/).
 
 When deploying you need to define collectionName, collectionSymbol and metadataUrl. 
+
 Of course you can change any of the config like nftPerAddressLimit, price, maxSupply in the contract.
 Initial values are:
 
