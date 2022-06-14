@@ -8,12 +8,12 @@ When deploying you need to define collectionName, collectionSymbol and metadataU
 Of course you can change any of the config like *nftPerAddressLimit*, *price*, *maxSupply* in the contract.
 Initial values are:
 
-- uriPrefix = "";
-- uriSuffix = ".json";
-- nftPerAddressLimit = 1;
-- price = 0.02 ether;
-- maxSupply = 222;
-- paused = true;
+- uriPrefix = ""
+- uriSuffix = ".json"
+- nftPerAddressLimit = 1
+- price = 0.02 ether
+- maxSupply = 222
+- paused = true
 
 For any suggestions or questions please contact me on:
 
