@@ -1,6 +1,8 @@
 # Basic NFT ERC721A Contract
 
-Ready contract for deploying NFT collection. It uses ERC721A standard which is much cheaper
+Ready contract for deploying NFT collection.
+
+It uses **ERC721A** standard which is much cheaper
 and minting costs 1/10 of normal ERC721 standard.
 
 It can be deployed by [Remix](https://remix.ethereum.org/). It can be also easily verified by using Remix "ETHERSCAN - CONTRACT VERIFICATION" plugin.
