@@ -1,19 +1,20 @@
 # Basic NFT ERC721A Contract
 
-Ready contract for deploying NFT collection.
-It can be deployed by [Remix](https://remix.ethereum.org/).
+Ready contract for deploying NFT collection. It uses ERC721A standard which is much cheaper
+and minting costs 1/10 of normal ERC721 standard.
 
-When deploying you need to define collectionName, collectionSymbol and metadataUrl. 
+It can be deployed by [Remix](https://remix.ethereum.org/). It can be also easily verified by using Remix "ETHERSCAN - CONTRACT VERIFICATION" plugin.
 
-Of course you can change any of the config like *nftPerAddressLimit*, *price*, *maxSupply* in the contract.
-Initial values are:
+You have to change collection name (26 line of code), collection symbol (26 line of code) and metadata url (12 line of code).
 
-- uriPrefix = ""
-- uriSuffix = ".json"
-- nftPerAddressLimit = 1
-- price = 0.02 ether
-- maxSupply = 222
-- paused = true
+Initial values for contract are:
+
+- uriPrefix: ""
+- uriSuffix: ".json"
+- nftPerAddressLimit: 1
+- price: 0.02 ether
+- maxSupply: 222
+- paused: true
 
 For any suggestions or questions please contact me on:
 

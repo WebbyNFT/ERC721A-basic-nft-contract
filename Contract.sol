@@ -9,7 +9,8 @@ import "erc721a/contracts/ERC721A.sol";
 contract NameOfContract is ERC721A, Ownable {
     using Strings for uint256;
 
-    string public uriPrefix = "";
+    string public uriPrefix = "linkToMetadata";
+
     string public uriSuffix = ".json";
 
     uint256 public nftPerAddressLimit = 1;
@@ -22,13 +23,7 @@ contract NameOfContract is ERC721A, Ownable {
 
     mapping(address => uint256) public mintedBalance;
 
-    constructor(
-        string memory _collectionName,
-        string memory _collectionSymbol,
-        string memory _metadataUrl
-    ) ERC721A(_collectionName, _collectionSymbol) {
-        uriPrefix = _metadataUrl;
-    }
+    constructor() ERC721A("collectionName", "collectionSymbol") {}
 
     function setPrice(uint256 _price) external onlyOwner {
         price = _price;
