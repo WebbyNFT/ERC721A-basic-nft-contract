@@ -1,4 +1,4 @@
-# Basic NFT ERC721A Contract
+# Basic NFT Solidity Contract
 
 Ready contract for deploying NFT collection.
 
