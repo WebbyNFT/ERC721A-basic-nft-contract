@@ -12,12 +12,10 @@ You have to change collection name (26 line of code), collection symbol (26 line
 
 Initial values for contract are:
 
-- uriPrefix: ""
-- uriSuffix: ".json"
-- nftPerAddressLimit: 1
-- price: 0.02 ether
-- maxSupply: 222
-- paused: true
+- Uri prefix (metadata url): linkToMetadata
+- Nft per address limit: 1
+- Price: 0.02 ether
+- Supply: 222
 
 For any suggestions or questions please contact me on:
 
